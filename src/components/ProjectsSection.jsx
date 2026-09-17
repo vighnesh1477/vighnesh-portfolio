@@ -16,10 +16,10 @@ const ProjectsSection = () => {
         >
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <h2 className="text-4xl font-heading font-bold text-center mb-3 text-gray-900 dark:text-gray-50">
-                    Featured <span className="text-indigo-500">Projects</span>
+                    Side <span className="text-indigo-500">Projects</span>
                 </h2>
                 <p className="text-lg text-gray-500 dark:text-gray-400 text-center mb-16">
-                    A showcase of my major development and engineering work.
+                    A showcase of my side projects development and engineering work.
                 </p>
 
                 {/* Projects Grid */}

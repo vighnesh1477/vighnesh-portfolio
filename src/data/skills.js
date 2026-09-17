@@ -1,19 +1,108 @@
 // src/data/skills.js
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaJava, FaCuttlefish, FaPython, FaGitAlt } from 'react-icons/fa';
-import { SiTailwindcss, SiFirebase } from 'react-icons/si';
+
+import {
+    FaHtml5,
+    FaCss3Alt,
+    FaJs,
+    FaReact,
+    FaJava,
+    FaCuttlefish,
+    FaPython,
+    FaGitAlt,
+    FaGithub,
+} from 'react-icons/fa';
+
+import {
+    SiPytorch,
+    SiTensorflow,
+    SiOpencv,
+    SiPandas,
+    SiMysql,
+
+} from 'react-icons/si';
 
 export const skills = [
-    { name: 'HTML5', icon: FaHtml5, color: 'text-orange-500' },
-    { name: 'CSS3', icon: FaCss3Alt, color: 'text-blue-500' },
-    { name: 'JavaScript', icon: FaJs, color: 'text-yellow-500' },
-    { name: 'React', icon: FaReact, color: 'text-sky-400' },
-    { name: 'Tailwind CSS', icon: SiTailwindcss, color: 'text-teal-500' },
+    // AI / ML / Computer Vision
+    {
+        name: 'Machine Learning',
+        icon: SiTensorflow,
+        color: 'text-orange-500',
+    },
+    {
+        name: 'Deep Learning',
+        icon: SiPytorch,
+        color: 'text-red-500',
+    },
+    {
+        name: 'Computer Vision',
+        icon: SiOpencv,
+        color: 'text-green-500',
+    },
+    {
+        name: 'Image Processing',
+        icon: SiOpencv,
+        color: 'text-blue-500',
+    },
+    {
+        name: 'Pandas',
+        icon: SiPandas,
+        color: 'text-indigo-600',
+    },
 
-    // 🌟 NEW SKILL ADDED
-    { name: 'Firebase Auth', icon: SiFirebase, color: 'text-amber-500' },
+    // Programming
+    {
+        name: 'Python',
+        icon: FaPython,
+        color: 'text-yellow-400',
+    },
+    {
+        name: 'C Language',
+        icon: FaCuttlefish,
+        color: 'text-blue-600',
+    },
+    {
+        name: 'Java',
+        icon: FaJava,
+        color: 'text-red-600',
+    },
+    {
+        name: 'JavaScript',
+        icon: FaJs,
+        color: 'text-yellow-500',
+    },
 
-    { name: 'Java', icon: FaJava, color: 'text-red-600' },
-    { name: 'C Language', icon: FaCuttlefish, color: 'text-blue-600' },
-    { name: 'Python (Basic)', icon: FaPython, color: 'text-yellow-400' },
-    { name: 'Git/GitHub', icon: FaGitAlt, color: 'text-red-700' },
+    // Web Development
+    {
+        name: 'React',
+        icon: FaReact,
+        color: 'text-sky-400',
+    },
+    {
+        name: 'HTML5',
+        icon: FaHtml5,
+        color: 'text-orange-500',
+    },
+    {
+        name: 'CSS3',
+        icon: FaCss3Alt,
+        color: 'text-blue-500',
+    },
+
+    // Database / Backend
+    {
+        name: 'MySQL',
+        icon: SiMysql,
+        color: 'text-blue-500',
+    },
+    // Version Control
+    {
+        name: 'Git',
+        icon: FaGitAlt,
+        color: 'text-red-600',
+    },
+    {
+        name: 'GitHub',
+        icon: FaGithub,
+        color: 'text-gray-700 dark:text-gray-300',
+    },
 ];

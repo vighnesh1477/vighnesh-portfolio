@@ -4,13 +4,20 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter';
 
 const AnimatedText = () => {
     // Note: If you have issues with loop/typewriter, check the installed version or try a simple state/useEffect implementation.
-    const [text] = useTypewriter({
-        words: ['Beginner Frontend Developer', 'App Developer', 'Building Clean UIs', 'React Enthusiast'],
-        loop: true,
-        typeSpeed: 70,
-        deleteSpeed: 50,
-        delaySpeed: 1000,
-    });
+const [text] = useTypewriter({
+    words: [
+        'AI & Deep Learning Researcher',
+        'Computer Vision Enthusiast',
+        'Image Processing Developer',
+        'AI/ML Developer',
+        'Research & Innovation Enthusiast',
+        'Product Development Enthusiast',
+    ],
+    loop: true,
+    typeSpeed: 70,
+    deleteSpeed: 50,
+    delaySpeed: 1000,
+});
 
     return (
         // Uses the custom font-playfair class and theme-aware colors

@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
                 <div className="mb-6">
                     <h2 className="text-3xl font-heading font-bold mb-2 text-indigo-500">Vighnesh Poojary</h2>
-                    <p className="text-sm text-gray-400">Beginner Frontend & App Developer</p>
+                    <p className="text-sm text-gray-400">AI/ML & Computer Vision Researcher | Software Developer</p>
                 </div>
 
                 {/* Navigation Links */}

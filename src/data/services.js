@@ -1,30 +1,36 @@
 // src/data/services.js
-import { 
-    FaLaptopCode, 
-    FaDraftingCompass, 
+
+import {
     FaBrain,
-    FaShieldAlt 
+    FaEye,
+    FaCode,
+    FaShieldAlt
 } from 'react-icons/fa';
 
 export const services = [
+
     {
-        title: 'Full-Stack Web Development',
-        description: 'Building scalable, high-performance applications using modern technologies across frontend and backend. Experienced with MERN stack, Firebase systems, and production-ready deployments.',
-        icon: FaLaptopCode,
-    },
-    {
-        title: 'UI/UX Wireframing & Prototyping',
-        description: 'Designing clean, user-friendly interfaces with strong focus on usability, visual hierarchy, and responsive design before development begins.',
-        icon: FaDraftingCompass,
-    },
-    {
-        title: 'Research & Problem Solving',
-        description: 'Working on real-world challenges through analytical thinking, brainstorming, and creating innovative solutions backed by data, algorithms, and research-based methodologies.',
+        title: 'AI & Deep Learning',
+        description: 'Developing intelligent solutions using Machine Learning, Deep Learning, neural networks, and data-driven approaches to solve practical real-world problems.',
         icon: FaBrain,
     },
+
     {
-        title: 'Cybersecurity Practices',
-        description: 'Understanding threat analysis, secure system design, and protection strategies for intelligent systems, IoT, and digital platforms through research-oriented cybersecurity foundations.',
+        title: 'Computer Vision & Image Processing',
+        description: 'Building vision-based systems using image processing, OpenCV, object detection, image analysis, tracking, segmentation, and classical computer vision techniques.',
+        icon: FaEye,
+    },
+
+    {
+        title: 'Software & Full-Stack Development',
+        description: 'Developing practical software and web applications using Python, Java, JavaScript, React, Firebase, Supabase, MySQL, and modern development tools.',
+        icon: FaCode,
+    },
+
+    {
+        title: 'Cybersecurity & AI Research',
+        description: 'Researching cybersecurity, data privacy, responsible AI, intelligent systems, and innovative technologies with a focus on developing practical research-driven solutions.',
         icon: FaShieldAlt,
     },
+
 ];
